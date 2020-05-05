@@ -1,0 +1,225 @@
+@font-face{
+    font-family: 'lmao';
+    src: url(fonts/Merriweather-Bold.ttf);
+}
+@font-face{
+    font-family: 'lol';
+    src: url(fonts/Merriweather-Light.ttf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{ 
+    background-color:rgb(32, 123, 207) ;
+    height: 5% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    border-radius: 2px !important;
+    flex-wrap: wrap !important;
+}
+p{
+    background-color: rgb(245, 245, 245);
+    height:100px;
+    width: 80%;
+    margin: 10px;
+    display: inline-block;
+}
+.nav-li{
+    display: inline-block !important;
+    padding-left: 15px !important;
+    margin-left: 1px !important;
+}
+li a img{
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-left: 0;
+} 
+.button{
+    font-size: 1px !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    padding-right: 19px !important;
+}
+    /* Introduction */
+.intro{
+    text-align: center;
+    height: 500px;
+
+}
+.intro-para{
+    color: grey;
+    text-align: justify;
+}
+
+  /* Monthly-stats */
+
+.monthly-stats-main{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 89, 253);
+    display: flex;
+    text-align: center;
+}
+.monthly-stats-child{
+    background-color: rgb(0, 89, 253);
+    height:20px;
+    width: 25%;  
+}
+.monthly-stats-child img{
+    width: 50px;
+    padding-top:70px;     
+}
+.monthly-stats-child h2{
+    color: white;
+    font-family: lol;
+    font-size: 3rem;
+    font-weight: 4px;
+    padding: -100px;
+}
+.monthly-stats-child p{
+    font-family: lol;
+    padding-bottom: 100px;
+}
+
+
+        /*what we are doing*/
+
+.what-main{
+    padding-top:30px;
+    text-align: center;
+    font-family: lol;
+    
+}
+.what-main h1{
+    font-size: 40px;
+}
+.what-main img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 100px;
+}
+.blue{
+    color: rgb(32, 123, 207) ;
+    font-family: lol;
+}
+.green{
+    color: yellowgreen;
+    font-family: lol;
+}
+
+     /* Image-Gallery */
+.image-gallery{
+text-align: center;
+}
+.image-hedding{
+
+}
+.image-logo{
+
+}
+.images{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+.images img{
+    width: 50%;
+}
+
+
+
+ 
+         /* boxes */
+
+.boxes-main-dv{
+ background-color: white;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.boxes { 
+    background-color: rgb(245, 245, 245);
+    height:200px;
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 100px rgb(155, 163, 160);   
+}
+.boxes>img{
+    width: 70px;
+    padding-top:40px; 
+}
+.boxes>h6{
+    color: rgb(32, 123, 207);
+    font-family:lol;
+    font-size: 17px;
+    margin:15px;
+    font-weight: 600;
+}
+.back-to-top{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 2%;
+    bottom: 10px;
+    border-radius: 5px solid green;
+}
+      /* Footer */
+
+.dark-grey-footer{
+    background-color: rgb(101, 104, 102);
+    height: 10%;
+    display: flex;
+}
+.footer-adress{
+    background-color: rgb(101, 104, 102);
+    width: 34%;
+    height: 10%;
+}
+.footer-useful-links{
+    background-color: rgb(101, 104, 102);
+    width: 33%;
+    height: 10%;
+}
+
+.footer-social-media-links{
+    background-color: rgb(101, 104, 102);;
+    width: 33%;
+    height: 10%;
+}
+.list{
+    color: white;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.adress-li{
+    padding: 5px;
+    list-style: none;
+}
+h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.footer-copyright{
+    background-color:rgb(32, 123, 207) ;
+    padding: 0.1px;
+    border-radius: 2px;    
+}
+.footer-img{
+    width: 30px ;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.copyright{
+    margin-left: 10%;
+}
+h2+ul li{
+    display: inline-block;
+}
+
