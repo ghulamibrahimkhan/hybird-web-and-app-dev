@@ -11,41 +11,52 @@ body{
 }
 .header{ 
     background-color:rgb(32, 123, 207) ;
-    height: 5% !important;
-    width: 100% !important;
-    display: flex !important;
-    justify-content: space-around !important;
-    border-radius: 2px !important;
-    flex-wrap: wrap !important;
-}
-p{
-    background-color: rgb(245, 245, 245);
-    height:100px;
-    width: 80%;
-    margin: 10px;
-    display: inline-block;
+    display: flex ;
+    justify-content: space-around ;
+    border-radius: 2px;
+    flex-wrap: wrap ;
 }
 .nav-li{
-    display: inline-block !important;
-    padding-left: 15px !important;
-    margin-left: 1px !important;
+    display:inline-block;
+    padding-left: 15px ;
+    margin-left: 10px ;
 }
-li a img{
-    height: 15px;
-    width: 15px;
-    margin-top: 3px;
+.nav-c ul li a img{
+    height: 17px;
+    width: 17px;
+    margin-top: 15px;
     margin-left: 0;
 } 
-.button{
-    font-size: 1px !important;
-    padding-top: 13px !important;
-    padding-bottom: 13px !important;
-    padding-right: 19px !important;
+.nav-para{
+    padding-top:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
 }
+.button{
+    font-size: 11px ;
+    padding-top: 13px ;
+    padding-bottom: 13px ;
+    padding-right: 19px ;
+}
+
+
+    /* nav droupdown */
+
+.hd-img{
+    height: 50px;
+}
+/* .NAV-bar{
+    padding-right: 50px !important; 
+ }  */
+
+
+
     /* Introduction */
 .intro{
     text-align: center;
-    height: 500px;
+    min-height: 550px;
+    width: 100%;
 
 }
 .intro-para{
@@ -53,26 +64,30 @@ li a img{
     text-align: justify;
 }
 
+
+
   /* Monthly-stats */
 
-.monthly-stats-main{
+/* .monthly-stats-main{
     width: 100%;
     height: 350px;
     background-color: rgb(0, 89, 253);
-    display: flex;
+    display:grid;
     text-align: center;
-}
-.monthly-stats-child{
+} */
+/* .monthly-stats-child{
     background-color: rgb(0, 89, 253);
     height:20px;
     width: 25%;  
-}
+} */
 .monthly-stats-child img{
     width: 50px;
-    padding-top:70px;     
+    padding-top:70px;
+    margin-left: 60px;
+         
 }
 .monthly-stats-child h2{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: lol;
     font-size: 3rem;
     font-weight: 4px;
@@ -81,7 +96,19 @@ li a img{
 .monthly-stats-child p{
     font-family: lol;
     padding-bottom: 100px;
+    color: ivory;
 }
+.ms-h2{
+    color: lawngreen !important;
+    font-size: 2000px !important;
+}
+#ms-img{
+    height: 10px !important;
+    background-color: lightpink;
+}
+
+
+
 
 
         /*what we are doing*/
@@ -100,20 +127,23 @@ li a img{
     width: 50px;
     padding-bottom: 100px;
 }
+
+        /*Color Class  */
 .blue{
     color: rgb(32, 123, 207) ;
     font-family: lol;
 }
 .green{
-    color: yellowgreen;
+    color: rgb(170, 255, 0);
     font-family: lol;
+    font-weight: 700;
 }
 
      /* Image-Gallery */
 .image-gallery{
 text-align: center;
 }
-.image-hedding{
+/* .image-hedding{
 
 }
 .image-logo{
@@ -123,19 +153,18 @@ text-align: center;
     display: flex;
     width: 100%;
     justify-content:space-around;
-}
+} */
 .images img{
     width: 50%;
 }
-
-
-
- 
+.kiki{
+    height: 100px;
+}
          /* boxes */
 
 .boxes-main-dv{
  background-color: white;
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
@@ -159,6 +188,7 @@ text-align: center;
     margin:15px;
     font-weight: 600;
 }
+        /*Back to top button */
 .back-to-top{
     height: 50px;
     width: 50px;
@@ -167,29 +197,50 @@ text-align: center;
     bottom: 10px;
     border-radius: 5px solid green;
 }
-      /* Footer */
-
-.dark-grey-footer{
-    background-color: rgb(101, 104, 102);
-    height: 10%;
+   /* Mission and upcoming porjects
+.m-and-u{   
     display: flex;
 }
-.footer-adress{
-    background-color: rgb(101, 104, 102);
-    width: 34%;
-    height: 10%;
+.mission-boxes{
+    display: flex;
 }
-.footer-useful-links{
-    background-color: rgb(101, 104, 102);
-    width: 33%;
-    height: 10%;
-}
+.m-h1{
 
-.footer-social-media-links{
-    background-color: rgb(101, 104, 102);;
-    width: 33%;
-    height: 10%;
 }
+.m-box{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    border: violet;
+    background-color: tomato;
+} */
+
+        /* M and P */
+
+.r-box{
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(246, 245, 245);
+}
+.mp-image{
+    position: absolute;
+    padding-top: 20px;
+}
+.mp-h5{
+    padding-top: 25px;
+    padding-left: 80px;
+}
+    /* U   &   P */
+    .xyz{
+       width: 100%;
+       height: 200px;
+       background-color: rgb(246, 245, 245);
+       overflow: scroll;
+    }
+
+      /* Footer */
 .list{
     color: white;
     padding: 50px;
@@ -211,15 +262,32 @@ h2{
     border-radius: 2px;    
 }
 .footer-img{
-    width: 30px ;
     height: 30px;
-    display: inline-block;
-    border-radius: 50%;
+    display: inline;
+    border-radius: 10%;
+    list-style-type:none ;
+    overflow: hidden;
 }
 .copyright{
     margin-left: 10%;
+    padding-top: 10px;
 }
 h2+ul li{
     display: inline-block;
 }
+.footer-ul{
+display: inline;
+list-style-type: none;
 
+}
+.hoja{
+float: left;
+padding: 20px;
+}
+.usefull{
+padding-top: 20px;
+}
+.aagy-pichy{
+    min-width: 500px;
+    
+}
